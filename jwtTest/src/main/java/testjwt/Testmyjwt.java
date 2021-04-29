@@ -47,6 +47,10 @@ public class Testmyjwt {
         }
         return jwt.getClaims();
     }
+    
+    public void add(){
+
+    }
 
     public static void main(String[] args) throws Exception{
         System.out.println(createToken());
@@ -58,4 +62,5 @@ public class Testmyjwt {
         verifyToken(pastToken);
 
     }
+    
 }
